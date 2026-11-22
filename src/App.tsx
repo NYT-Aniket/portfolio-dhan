@@ -51,6 +51,10 @@ const App = () => {
       }
     >
       <main className="h-screen w-screen overflow-hidden bg-black font-mono capitalize">
+        <div>
+          <img className="h-100 fixed inset-0 m-auto"
+            src="../public/download.jpg" alt="my mistake" />
+        </div>
         <div className="w-full h-full bg-black p-10">
           <div className="bg-white font-custom h-full w-full pt-5 px-2 flex flex-col justify-between p-10">
             <div className="flex flex-col">
@@ -67,6 +71,14 @@ const App = () => {
                   <h1>me</h1>
                 </div>
                 <p className="font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, nostrum!</p>
+              </div>
+              <div className="w-full flex items-end justify-end">
+                <div className="w-[40%] pt-10 pl-5 font-mono flex flex-col gap-2">
+                  <div className="w-[50%] flex justify-between text-2xl">
+                    <h1>About</h1>
+                  </div>
+                  <p className="font-semibold">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores, nostrum!</p>
+                </div>
               </div>
             </div>
             <div className="pl-5">
