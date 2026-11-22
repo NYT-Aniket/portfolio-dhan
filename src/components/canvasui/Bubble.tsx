@@ -217,7 +217,7 @@ export type BubbleInstance = {
 };
 
 const DEFAULTS: Required<BubbleOptions> = {
-  size: 30,
+  size: 5,
   trail: 24,
   follow: 0.5,
   blend: 14,
